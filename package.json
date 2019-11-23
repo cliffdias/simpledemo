@@ -1,0 +1,19 @@
+{
+  "name": "simpledemo",
+  "version": "1.0.1",
+  "description": "Simple Demo",
+  "private": true,
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "morgan": "^1.9.1",
+    "socket.io": "0.9.10"
+  },
+  "scripts": {
+    "start": "node --use_strict app.js"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}
